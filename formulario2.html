@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario do Estudante</title>
+
+</head>
+<body>
+    <form action= "programa.php" method= "get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Nome:<input type="text" name="nome" /></label><br />
+            <label>Data de nascimento:<input type="date" name="data de nascimento" /></label><br />
+            <label>E-mail:<input type="email" name="E-mail" /></label><br />
+            <label>Telefone:<input type="text" name="Telefone" /></label><br />
+        </fieldset>
+        <fieldset>
+            <legend>Dados acadêmicos</legend>
+            <label>Curso:
+            <select name="Curso">
+                <option value="em"> ADS </option>
+                <option value="nt"> CD </option>
+                <option value="ns"> TI </option>
+            </select>
+            </label>
+            <br />
+            <label>Semestre
+                <input type="radio" name="cargo" value="1" checked> 1º
+                <input type="radio" name="cargo" value="2" > 2º
+                <input type="radio" name="cargo" value="3" > 3º
+                <input type="radio" name="cargo" value="3" > 4º
+                <input type="radio" name="cargo" value="3" > 5º
+            </label>
+        </fieldset>
+        <fieldset>
+        <label>Trabalha?<input type="checkbox" name="area1" value="com" /></label><br />
+        <label>Local de Trabalho:<input type="text" name="local de trabalho" /></label><br />
+        <label>Descreva sua experiência :<input type="text" name="descrevasuaexperiência"  /></label><br />
+        <textarea id="descrevasuaexperiência" rows="10" cols="70"></textarea>
+        </fieldset>
+        <input type="submit" value="gravar">
+        <input type="reset" value="limpar">
+    </form>
+
+    <h4>Voltar para a pagina inicial</h4>
+    <a href="index.html">
+        Click Aqui
+      </a>
+</body>
+</html>
