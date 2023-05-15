@@ -2,5 +2,9 @@
 Exercicio sobre formulario no html
 
 ## Equipe do trabalho
--Mateus
--
+-Mateus Carneiro
+-Jontas Miranda
+-Gustavo Lima
+-Isaque Souto
+-Caio Emmanuel
+-Igor Coutinho
